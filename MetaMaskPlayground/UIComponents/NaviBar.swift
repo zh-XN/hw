@@ -28,7 +28,7 @@ struct NaviBar: View {
                         }
                     } label: {
                         Image("more")
-                            .resizable().frame(width: 20.fitW(), height: 20.fitW())
+                            .resizable().frame(width: 25.fitW(), height: 25.fitW())
                     }
                 }
                 
@@ -61,7 +61,7 @@ struct NaviBar: View {
                         }
                     } label: {
                         Image("scan")
-                            .resizable().frame(width: 20.fitW(), height: 20.fitW())
+                            .resizable().frame(width: 25.fitW(), height: 25.fitW())
                     }
                 }
             }
